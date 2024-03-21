@@ -1,0 +1,135 @@
+/* for small divice
+@media(min-width:400px){
+  .container{ 
+    width: 340px;}
+}
+
+for smart phone
+@media(min-width:576px){
+  .container{ 
+    width: 540px;}
+}
+
+/*  */
+
+
+
+
+/* for smart phone */
+@media(min-width:576px){
+  .container{ 
+    width: 540px;}
+    /* nav ul li {
+      padding: 0px 0px 0px 40px;
+  } */
+  .banner span {
+    display: inline-block;
+    height: 8px;
+    width: 300px;
+ 
+  }
+  .banner h4 {
+    font-size: xx-large;
+  }
+}
+.event-main span {
+  height: 8px;
+  width: 300px;
+
+ 
+}
+
+/* tablet/notebook/minilaptop */
+@media(min-width:788px){
+  .container{ 
+    width: 740px;}
+    .event {
+    display: flex;
+    justify-content: center;
+    /* padding-left: 50px; */
+    padding-top: 10px;
+    /* border: 1px; */
+  }
+  .explore-world.hide{
+    width: 100%
+  }
+  .explore-itme {
+    width: 50%;
+    padding: 10px;
+  }
+  .explore-itme h3 {
+    font-size: 70px;
+  
+  }
+  .explore-itme span {
+    display: block;
+    height: 8px;
+    width: 300px;
+    border-radius: 356px;
+    background-color: rgb(0, 188, 212);
+  }
+  .explore-itme a {
+   
+    font-size: xxx-large;
+    letter-spacing: 2px;
+  }
+  .tour-main{
+    display: flex;
+  }
+  /* tour img change for small divice */
+  .img1 {
+    height: 301px;
+    object-fit: cover;
+    width: 500px;
+    border-radius: 5px;
+    
+}
+
+.img2 {
+    height: 500px;
+    object-fit: cover;
+    border-radius: 5px;
+}
+   nav ul li {
+      padding: 0px 0px 0px 40px;
+  }
+  
+}
+
+
+@media(min-width:992px){
+  .container{ 
+    width: 940px;}
+    .navbar {
+      display: flex;
+      justify-content: space-between;
+      flex-direction: row;
+      align-items: center;
+  }
+  .banner h1 {
+    font-size: 70px;
+    color: rgba(255, 255, 255, 0.54);
+  }
+  .explore-world.hide{
+  width: 100%;
+  }
+}
+
+
+
+@media(min-width:1200px){
+  .container{ 
+    width: 1150px;}
+}
+
+@media(min-width:1400px){
+  .container{ 
+    width: 1395px;}
+}
+
+
+@media(min-width:1600){
+  .container{ 
+    width: 1490px;}
+}
+ 
